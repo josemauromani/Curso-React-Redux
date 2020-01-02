@@ -1,8 +1,10 @@
 import React from "react";
 
-export default () => (
+export default props => (
   <div>
-    <h1>Primeiro componente (Arrow function) </h1>
+    <h1>{props.valor}</h1>
+    <h2>{props.calculo}</h2>
+    <h3>{Math.random()}</h3>
   </div>
 );
 
