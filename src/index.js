@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import PrimeiroComponente from "./componentes/PrimeiroComponente";
+import Mani from './componentes/FamiliaMani'
 
 const elemento = document.getElementById("root");
 ReactDOM.render(
   <div>
-    <PrimeiroComponente></PrimeiroComponente>
+    <Mani></Mani>
   </div>,
   elemento
 );
