@@ -6,7 +6,7 @@ import Membro from './componentes/Membro'
 const elemento = document.getElementById("root");
 ReactDOM.render(
   <div>
-    <Familia sobrenome="Mani">
+    <Familia sobrenome="Mani" simbolo="cruz">
       <Membro nome="José Mauro Morais"></Membro>
     </Familia>
   </div>,
