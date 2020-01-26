@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Mani from './componentes/FamiliaMani'
+import FamiliaMani from './componentes/FamiliaMani'
 
 const elemento = document.getElementById("root");
 ReactDOM.render(
   <div>
-    <Mani></Mani>
+    <FamiliaMani></FamiliaMani>
   </div>,
   elemento
 );
